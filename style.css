@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -32,7 +32,7 @@ header .logo {
 }
 
 .logo h2 {
-    font-size: ;
+    font-size: 30px;
     font-family: 'Tahoma';
 }
 
@@ -49,25 +49,44 @@ header nav img {
 }
 
 .primeiraSecao {
-    background-color: url("./img/dogbranco.png");
+    width: 100vw;
+    background: url("./img/dogbranco.png");
     height: 100vh;
     background-size: 100% 100%;
     background-position: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    color: white;
 }
 
 .primeiraSecao div {
-    width: 60vw;
+    width: 20vw;
     text-align: center;
-    color: white;
-    padding-top: 40px;
+    margin-top: 100px;
+    font-size: 40px;
+    margin-bottom: 15px;
 }
 
 .primeiraSecao img {
     width: 10vw;
     margin-top: 10px;
 }
+
+.segundaSecao {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url('./img/dogbranco.png');
+    background-size: 100% 100%;
+    background-position: center;
+    align-items: center;
+
+}
+
+
+
+
 
 @media (max-width: 500px) {
     .mobile {
